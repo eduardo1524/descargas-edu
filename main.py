@@ -556,7 +556,7 @@ def onmessage(update,bot:ObigramClient):
 
         if '/start' in msgText:
             
-            msg = '🍜 ¡Sniky iniciado correctamente! 🍜\n\n'
+            msg = '🍜 ¡Noah iniciado correctamente! 🍜\n\n'
 
             msg+= '👩🏻‍💻 Para ver los comandos disponibles utilice: /help\n'
             msg+= '🤖 Información del bot con: /about\n'
@@ -639,7 +639,7 @@ def main():
     bot_token = os.environ.get('bot_token')
 
     #set in debug
-    bot_token = '5563478554:AAEm64_U9h3yqzC_T2XAetDjCsSmd7Rl5-s'
+    bot_token = '5287229423:AAEx2pcZFSZvS8Mice6t6IbOFrefYBs4ftM'
 
     bot = ObigramClient(bot_token)
     bot.onMessage(onmessage)
